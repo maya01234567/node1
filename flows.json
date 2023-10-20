@@ -158,9 +158,9 @@
         "id": "22cf9ae31d9d7806",
         "type": "remote-config",
         "name": "Node-RED UI2",
-        "host": "192.168.0.103",
+        "host": "localhost",
         "protocol": "http",
-        "port": "1880",
+        "port": "1883",
         "baseurl": "/ui",
         "instancehash": "y2h1b1ssfhnqguer0lw6l9d4h0f2s2djbodcbtj355x4hnyu610blrtpdbcff4zo",
         "server": "nodered04.remote-red.com",
@@ -201,7 +201,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 430,
-        "y": 140,
+        "y": 160,
         "wires": []
     },
     {
@@ -261,8 +261,8 @@
         "confignode": "22cf9ae31d9d7806",
         "name": "home",
         "verbose": true,
-        "x": 790,
-        "y": 180,
+        "x": 750,
+        "y": 140,
         "wires": [
             [],
             []
@@ -469,36 +469,6 @@
         "wires": []
     },
     {
-        "id": "caee02188b3a257d",
-        "type": "ui_colour_picker",
-        "z": "e58c7c40d0bd795c",
-        "name": "",
-        "label": "",
-        "group": "b8b9062ef3b32f4e",
-        "format": "hex",
-        "outformat": "string",
-        "showSwatch": true,
-        "showPicker": false,
-        "showValue": false,
-        "showHue": false,
-        "showAlpha": false,
-        "showLightness": true,
-        "square": "false",
-        "dynOutput": "false",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 210,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "f5c0e53a3c6cc3e9",
         "type": "ui_chart",
         "z": "e58c7c40d0bd795c",
@@ -536,8 +506,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 390,
-        "y": 340,
+        "x": 530,
+        "y": 560,
         "wires": [
             []
         ]
